@@ -8,6 +8,8 @@ export NEWS_BRANCH="main"
 export NEWS_WORKDIR="/tmp/news-github-sync"
 export NEWS_OUTPUT_DIR="news"
 export NEWS_MAX_ITEMS_PER_FEED="10"
+export GIT_AUTHOR_NAME="hahaTT0902"
+export GIT_AUTHOR_EMAIL="104051227+hahaTT0902@users.noreply.github.com"
 
 if [ ! -d .venv ]; then
   python3 -m venv .venv

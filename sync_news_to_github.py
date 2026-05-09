@@ -72,8 +72,8 @@ def ensure_repo() -> pathlib.Path:
         run(["git", "clone", "--branch", BRANCH, repo_url_with_token(REPO_URL), str(WORKDIR)])
 
     # Keep cron/non-interactive commits working even when global git identity is unset.
-    run(["git", "config", "user.name", os.getenv("GIT_AUTHOR_NAME", "Claw")], cwd=WORKDIR)
-    run(["git", "config", "user.email", os.getenv("GIT_AUTHOR_EMAIL", "claw@local")], cwd=WORKDIR)
+    run(["git", "config", "user.name", os.getenv("GIT_AUTHOR_NAME", "hahaTT0902")], cwd=WORKDIR)
+    run(["git", "config", "user.email", os.getenv("GIT_AUTHOR_EMAIL", "104051227+hahaTT0902@users.noreply.github.com")], cwd=WORKDIR)
 
     return WORKDIR
 
