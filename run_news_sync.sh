@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd /home/hahatt/.openclaw/workspace/news-sync
-export PATH="/home/hahatt/.local/bin:$PATH"
-export NEWS_REPO_URL="https://github.com/hahaTT0902/news.git"
+cd /home/typethe0ry/.openclaw/workspace/news-sync
+export PATH="/home/typethe0ry/.local/bin:$PATH"
+export NEWS_REPO_URL="https://github.com/TypeThe0ry/news.git"
 export NEWS_BRANCH="main"
 export NEWS_WORKDIR="/tmp/news-github-sync"
 export NEWS_OUTPUT_DIR="news"
 export NEWS_MAX_ITEMS_PER_FEED="10"
-export GIT_AUTHOR_NAME="hahaTT0902"
-export GIT_AUTHOR_EMAIL="104051227+hahaTT0902@users.noreply.github.com"
+export GIT_AUTHOR_NAME="TypeThe0ry"
+export GIT_AUTHOR_EMAIL="TypeThe0ry@users.noreply.github.com"
 
 if [ ! -d .venv ]; then
   python3 -m venv .venv
